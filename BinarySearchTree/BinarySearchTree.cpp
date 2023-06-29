@@ -28,4 +28,8 @@ public:
 		ROOT = NULL; // initializing ROOT to null
 	}
 
+	void insert(sring element) // insert a node in the binary search tree
+	{
+
+	}
 };
