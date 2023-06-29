@@ -95,14 +95,14 @@ public:
 		if (ptr != NULL)
 		{
 			cout << ptr->info << " ";
-			inorder(ptr->leftchild);
-			inorder(ptr->rightchild);
+			preorder(ptr->leftchild);
+			preorder(ptr->rightchild);
 		}
 		
 	}
 
 	void postorder(Node* ptr)
 	{
-
+	
 	}
 };
