@@ -28,8 +28,14 @@ public:
 		ROOT = NULL; // initializing ROOT to null
 	}
 
-	void insert(sring element) // insert a node in the binary search tree
+	void insert(string element) // insert a node in the binary search tree
 	{
+		Node* newNode = new Node(element, NULL, NULL); // Allocate memory for the new node
+		newNode->info = element; // assign to the data field of the new node
+		newNode->leftchild = NULL; // make the left child of the new node point to null
+		newNode->rightchild = NULL; // make the right child of the new node point to null
 
+		
 	}
+
 };
