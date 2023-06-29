@@ -135,6 +135,30 @@ int main()
 		cin >> ch;
 		cout << endl;
 
+		switch (ch)
+		{
+		case '1':
+		{
 
+		}
+
+		case '2':
+		{
+
+		}
+
+		case '3':
+		{
+
+		}
+		case '4':
+		{
+
+		}
+		case '5':
+		{
+
+		}
+		}
 	}
 }
